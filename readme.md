@@ -2,7 +2,7 @@
 
 ### Task Instruction
 
-- Make this one page using tailwind and shadcn on react.
+- Make this one page using tailwind and react.
 - No need responsive and no theme mode.
 
 ## Tech Stack
