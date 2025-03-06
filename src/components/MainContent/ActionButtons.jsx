@@ -5,7 +5,7 @@ import CustomButton from "../Button/CustomButton";
 const ActionButtons = () => {
   return (
     <div className="flex items-center justify-center gap-x-2 mt-10">
-      <CustomButton className="border border-accent-orange border-white/30 p-4 px-24 font-semibold">
+      <CustomButton className="border border-accent-orange  p-4 px-24 font-semibold">
         Start
       </CustomButton>
       <span className="text-white px-5 font-semibold">or</span>
