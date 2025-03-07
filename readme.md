@@ -4,6 +4,7 @@
 
 - Make this one page using tailwind and react.
 - No need responsive and no theme mode.
+- I don't use Shadcn or any other UI library.
 
 ## Tech Stack
 
@@ -11,7 +12,6 @@
 - Tailwind CSS
 - React Icons
 - React Tooltip
-  The project is complete
 
 ## Folder Structure
 
