@@ -2,18 +2,14 @@ import FileTag from "../FileTag/FileTag";
 
 const FileList = () => {
   return (
-    <div className="w-full bg-main-bg mt-5 p-5 rounded-full flex items-center gap-x-5">
+    <div className=" bg-main-bg mt-5 w-full h-[62px] px-5 rounded-full flex items-center gap-x-5">
       <div className="flex items-center gap-x-5">
         <FileTag
           filename="Report_file.pdf"
           iconSrc="/images/files.png"
-          checkboxSrc="/images/checkbox-2.png"
+          checked={true}
         />
-        <FileTag
-          filename="Report_file.pdf"
-          iconSrc="/images/files1.png"
-          checkboxSrc="/images/checkbox.png"
-        />
+        <FileTag filename="Report_file.pdf" iconSrc="/images/files1.png" />
       </div>
     </div>
   );

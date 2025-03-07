@@ -9,6 +9,7 @@ export default {
         "secondary-bg": "#363636", // Upgrade section and input background
         "button-bg": "#454545", // Default button background
         "accent-orange": "#F37F0C", // Primary orange accent
+        "border-color": "#7C7C7C", // Border for checkbox
         "gradient-start": "#FB9936", // Deep Dive button gradient start
         "gradient-end": "#FEB907", // Deep Dive button gradient end
       },

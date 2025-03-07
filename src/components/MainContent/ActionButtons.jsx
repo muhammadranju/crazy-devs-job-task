@@ -4,12 +4,12 @@ import CustomButton from "../Button/CustomButton";
 
 const ActionButtons = () => {
   return (
-    <div className="flex items-center justify-center gap-x-2 mt-10">
-      <CustomButton className="border border-accent-orange  p-4 px-24 font-semibold">
+    <div className="flex items-center justify-center gap-x-2 mt-14">
+      <CustomButton className="border border-accent-orange  w-60 h-[60px] text-base  font-semibold">
         Start
       </CustomButton>
-      <span className="text-white px-2 font-semibold">or</span>
-      <CustomButton className="border border-gradient-end border-white/30 p-4 px-5 font-semibold bg-gradient-to-t from-gradient-start to-gradient-end">
+      <span className="text-white text-base px-2 font-semibold">or</span>
+      <CustomButton className="border  border-white/30 w-60 h-[60px] font-semibold bg-gradient-to-t from-gradient-start to-gradient-end text-base">
         <img src="/images/deep-dive.png" alt="" /> Start with Deep Dive
       </CustomButton>
       <MdInfo
