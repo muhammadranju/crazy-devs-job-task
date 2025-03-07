@@ -22,12 +22,12 @@ const FileUploadSection = () => {
         <IconTextPair
           iconSrc="/images/icon2.png"
           text="Drag & drop local files here, or click to select"
-          className="bg-main-bg p-10 rounded-2xl"
+          className="bg-main-bg p-8 px-10 rounded-2xl text-lg"
         />
-        <div className="bg-main-bg p-10 rounded-2xl flex items-center gap-x-5 w-full">
+        <div className="bg-main-bg p-8 px-10 rounded-2xl flex items-center gap-x-5 w-full">
           <img src="/images/url.png" className="w-10" alt="" />
           <div className="relative w-full">
-            <p>Enter in a public URL:</p>
+            <p className="text-lg">Enter in a public URL:</p>
             <input
               type="text"
               className="p-[10px] rounded-full bg-secondary-bg w-full placeholder-white/20 placeholder:text-sm"
@@ -41,12 +41,12 @@ const FileUploadSection = () => {
         <IconTextPair
           iconSrc="/images/dropbox.png"
           text="Add files from Dropbox"
-          className="bg-main-bg p-12 rounded-2xl"
+          className="bg-main-bg p-10 px-12 rounded-2xl text-lg"
         />
         <IconTextPair
           iconSrc="/images/google-drive.png"
           text="Add files from Google Drive"
-          className="bg-main-bg p-14 rounded-2xl"
+          className="bg-main-bg p-10 px-10 rounded-2xl text-lg"
         />
       </div>
     </>
