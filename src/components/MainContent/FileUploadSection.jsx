@@ -5,9 +5,9 @@ const FileUploadSection = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center mt-20">
-        <h1 className="text-[54px] font-medium flex lg:flex-row flex-col items-center justify-center gap-x-3">
+        <h1 className="text-[54px] font-medium flex lg:flex-row flex-col items-center justify-center gap-x-2">
           Add Files to
-          <img src="/images/cloud-icon.png" alt="cloud icon" className="w-24" />
+          <img src="/images/cloud-icon.png" alt="cloud icon" className="w-20" />
           Cloud Chat
         </h1>
         <p className="text-white/60 text-base mt-3">
